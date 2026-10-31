@@ -1,25 +1,21 @@
 # X Bookmarks
 
-> Donovin's saved X (Twitter) bookmarks posted on or after 2026-06-01 (America/Chicago), one Markdown file per bookmark. 366 bookmarks. Exported 2026-10-31T15:49:50-05:00.
+> Donovin's saved X (Twitter) bookmarks posted on or after 2026-06-01 (America/Chicago), one Markdown file per bookmark. 366 bookmarks. Exported 2026-10-31T16:36:38-05:00.
 
 Post text is exactly as shown on X: original line breaks, t.co links expanded, hidden media and quote links removed.
 
 ## Files
 
-- [index.md](https://donovinsims.github.io/x-bookmarks/index.md): table of every bookmark (date, author, kind, category, title, link to its file)
-- [bookmarks.jsonl](https://donovinsims.github.io/x-bookmarks/bookmarks.jsonl): one JSON object per line; every frontmatter field plus title, text (full post text), file, md_url. Best for bulk reading.
-- md/<YYYY-MM-DD>-<handle>-<id>.md: one file per bookmark, e.g. https://donovinsims.github.io/x-bookmarks/md/... (filenames are stable; date is the post date in America/Chicago)
+- [index.md](https://donovinsims.github.io/x-bookmarks/index.md): table of every bookmark (date, author, posts in thread, title, link to its file)
+- [bookmarks.jsonl](https://donovinsims.github.io/x-bookmarks/bookmarks.jsonl): one JSON object per line. Best for bulk reading. Keys: url, username, posted_at, metrics, title, text (bookmarked post), thread ({id, url, text, bookmarked, quoted_url, media}[], empty if not a thread), full_text (whole thread joined with "n/N" headers, or the post text), quoted ({url, author, text} or null), media ({type, url}[]), file, md_url.
+- md/<YYYY-MM-DD>-<handle>-<id>.md: one file per bookmark (filenames are stable; date is the post date in America/Chicago)
 
 ## Markdown file schema
 
-YAML frontmatter, every key always present, values JSON-encoded:
-- id (string), url (string), author_handle (string), author_name (string)
-- posted_at (string, ISO 8601 UTC), kind ("post" | "article" | "quote")
-- category (string), purpose (string[]), projects (string[]), takeaway (string)
-- likes (integer), favorite (boolean), has_media (boolean)
-- media ({type, url}[]; type is photo | video | animated_gif)
-- quoted ({id, url, author, text} or null; text is the quoted post's text or article title)
-- notes (string), source ("x_bookmark"), exported_at (string, ISO 8601)
+YAML frontmatter, values JSON-encoded, only these keys:
+- url (string), username (string, author handle), posted_at (string, YYYY-MM-DD, America/Chicago)
+- metrics (object: likes, reposts, replies, quotes, bookmarks, views; integers, a key is omitted only if X does not report it)
 
-Body, in this order: "# <title or first line>", "## Post" (exact text), then only when present "## Quoted post" (blockquote), "## Media" (list of type: url), "## Notes".
+Body, in this order: "# <title or first line>", "## Post" (exact text of the bookmarked post), then only when present "## Thread" (every post of the author's self-reply thread in order, each as "### n/N" with its URL, text, quoted link and media; the bookmarked one is marked), "## Quoted post" (blockquote), "## Media" (list of type: url).
+Threads are the author's consecutive self-replies starting at the thread's first post.
 UTF-8, LF line endings, no HTML.
