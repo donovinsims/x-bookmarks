@@ -100,6 +100,7 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .tabs.theme button.s{height:28px}
 .px{white-space:pre-wrap;word-wrap:break-word;font-size:14px;line-height:1.5;color:var(--muted-foreground);display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
 .stext a,.px a{color:var(--info-foreground);text-decoration:none;font-weight:500}.stext a:hover,.px a:hover{text-decoration:underline;text-underline-offset:4px}
+.xw{position:relative;display:inline-block}.xpop{position:absolute;z-index:30;top:calc(100% + 4px);left:0;min-width:240px;padding:4px;border:1px solid var(--border);border-radius:var(--radius-lg);background:var(--popover);box-shadow:var(--shadow-xs5)}.xpop[hidden]{display:none}.xpop button{display:flex;justify-content:space-between;width:100%;gap:12px;padding:6px 8px;border:0;border-radius:6px;background:none;color:var(--foreground);font:inherit;font-size:14px;cursor:pointer;text-align:left}.xpop button:hover,.xpop button:focus-visible{background:var(--accent);outline:none}.xpop button span{color:var(--muted-foreground)}.xpop p{margin:4px 8px 4px;font-size:12px;color:var(--muted-foreground)}
 .stext p{margin:0 0 12px}
 .qt{display:block;margin-top:12px;border:1px solid var(--border);border-radius:12px;padding:12px 14px;color:inherit;text-decoration:none;background:var(--card)}.qt:hover{background:var(--accent)}.qt b{font-size:13px;font-weight:600}.qtx{white-space:pre-wrap;font-size:13px;line-height:1.5;color:var(--muted-foreground);margin-top:4px;word-wrap:break-word;display:-webkit-box;-webkit-line-clamp:8;-webkit-box-orient:vertical;overflow:hidden}
 body.lock{overflow:hidden}
@@ -116,7 +117,7 @@ body.lock{overflow:hidden}
 <label class="f">Author<input type="text" id="fa" placeholder="@handle"></label><label class="f">Search<input type="search" id="fs" placeholder="text, takeaway, notes"></label>
 <div class="toggles"><label class="tg"><input type="checkbox" id="fm"><span></span>Has media</label><label class="tg"><input type="checkbox" id="ff"><span></span>Favorites</label></div>
 </div>
-<div class="sortrow" id="sorts"><div class="tabs" role="tablist"><button class="s on" data-s="o">Recently bookmarked</button><button class="s" data-s="d">Post date</button><button class="s" data-s="l">Likes</button><button class="s" data-s="a">Author</button></div><button class="btn sm" id="reset">Reset</button><span class="count" id="count"></span></div>
+<div class="sortrow" id="sorts"><div class="tabs" role="tablist"><button class="s on" data-s="o">Recently bookmarked</button><button class="s" data-s="d">Post date</button><button class="s" data-s="l">Likes</button><button class="s" data-s="a">Author</button></div><button class="btn sm" id="reset">Reset</button><span class="xw"><button class="btn sm" id="exp" aria-haspopup="menu" aria-expanded="false">Export</button><div class="xpop" id="xpop" role="menu" hidden><button role="menuitem" data-x="f">Current filters <span id="xfn"></span></button><button role="menuitem" data-x="a">Everything</button><p>Zip of Markdown files, index.md, bookmarks.jsonl, llms.txt</p></div></span><span class="count" id="count"></span></div>
 <div class="grid" id="grid"></div>
 <button class="btn more" id="more">Show more</button>
 <h2>About</h2><p class="about" id="about"></p>
@@ -179,6 +180,30 @@ function move(e){if(y0==null)return;dy=Math.max(0,e.clientY-y0);if(dy>0){sh.styl
 function end(){if(y0==null)return;y0=null;sh.style.transition="";sc.style.opacity="";if(dy>110)close();else sh.style.transform=""}
 [sh.querySelector(".grab"),sh.querySelector(".shead"),body].forEach(function(el){el.addEventListener("pointerdown",start);});
 window.onpointermove=move;window.onpointerup=end;window.onpointercancel=end}
+
+var CRC=(function(){var t=[];for(var n=0;n<256;n++){var c=n;for(var k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
+function crc32(b){var c=0xFFFFFFFF;for(var i=0;i<b.length;i++)c=CRC[(c^b[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0}
+function zip(files){var enc=new TextEncoder(),parts=[],cd=[],off=0;var d=new Date(),dt=((d.getHours()<<11)|(d.getMinutes()<<5)|(d.getSeconds()>>1)),dd=(((d.getFullYear()-1980)<<9)|((d.getMonth()+1)<<5)|d.getDate());
+files.forEach(function(f){var nm=enc.encode(f[0]),data=enc.encode(f[1]),c=crc32(data);var h=new DataView(new ArrayBuffer(30));
+h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint16(8,0,true);h.setUint16(10,dt,true);h.setUint16(12,dd,true);h.setUint32(14,c,true);h.setUint32(18,data.length,true);h.setUint32(22,data.length,true);h.setUint16(26,nm.length,true);h.setUint16(28,0,true);
+parts.push(h.buffer,nm,data);var e=new DataView(new ArrayBuffer(46));e.setUint32(0,0x02014b50,true);e.setUint16(4,20,true);e.setUint16(6,20,true);e.setUint16(8,0x0800,true);e.setUint16(10,0,true);e.setUint16(12,dt,true);e.setUint16(14,dd,true);e.setUint32(16,c,true);e.setUint32(20,data.length,true);e.setUint32(24,data.length,true);e.setUint16(28,nm.length,true);e.setUint32(42,off,true);
+cd.push(e.buffer,nm);off+=30+nm.length+data.length});var cs=0;cd.forEach(function(p){cs+=p.byteLength});var z=new DataView(new ArrayBuffer(22));z.setUint32(0,0x06054b50,true);z.setUint16(8,files.length,true);z.setUint16(10,files.length,true);z.setUint32(12,cs,true);z.setUint32(16,off,true);
+return new Blob(parts.concat(cd,[z.buffer]),{type:"application/zip"})}
+function cellx(s){return String(s).replace(/\|/g,"\\|").replace(/\n/g," ")}
+async function buildExport(all){var ids=null;if(!all){ids={};cur.forEach(function(r){ids[r.i]=1})}
+var jl=(await (await fetch("bookmarks.jsonl",{cache:"no-cache"})).text()).split("\n").filter(Boolean).map(function(l){return JSON.parse(l)}).filter(function(o){return !ids||ids[o.id]});
+var files=[],i=0;var mds=new Array(jl.length),nx=0;async function wk(){while(nx<jl.length){var k=nx++;var rs=await fetch(jl[k].file);if(!rs.ok)throw new Error(jl[k].file+" "+rs.status);mds[k]=await rs.text()}}await Promise.all([1,2,3,4,5,6,7,8].map(wk));
+jl.forEach(function(o,k){files.push([o.file,mds[k]])});
+var now=new Date().toISOString();files.push(["index.md","# X bookmarks index\n\n"+jl.length+" bookmarks, newest first. Exported "+now+(all?"":" (filtered view)")+".\n\n| date | author | kind | category | title |\n|---|---|---|---|---|\n"+jl.map(function(o){return "| "+o.file.slice(3,13)+" | @"+cellx(o.author_handle)+" | "+o.kind+" | "+cellx(o.category)+" | ["+cellx(o.title)+"]("+o.file+") |"}).join("\n")+"\n"]);
+files.push(["bookmarks.jsonl",jl.map(function(o){return JSON.stringify(o)+"\n"}).join("")]);
+var lt=await (await fetch("llms.txt",{cache:"no-cache"})).text();files.push(["llms.txt",lt.replace(/\d+ bookmarks\. Exported [^\n]*/,jl.length+" bookmarks"+(all?"":" (filtered view)")+". Exported "+now+".")]);
+return zip(files)}
+window.buildExport=buildExport;
+(function(){var b=$("exp"),p=$("xpop");function cl(){p.hidden=true;b.setAttribute("aria-expanded","false")}
+b.addEventListener("click",function(e){e.stopPropagation();p.hidden=!p.hidden;b.setAttribute("aria-expanded",String(!p.hidden));$("xfn").textContent=cur.length;if(!p.hidden)p.querySelector("button").focus()});
+document.addEventListener("click",function(e){if(!p.contains(e.target))cl()});document.addEventListener("keydown",function(e){if(e.key=="Escape")cl()});
+p.addEventListener("click",async function(e){var t=e.target.closest("button");if(!t)return;cl();var all=t.dataset.x=="a",lab=b.textContent;b.textContent="Exporting…";b.disabled=true;
+try{var z=await buildExport(all);var a=document.createElement("a");a.href=URL.createObjectURL(z);a.download="x-bookmarks-"+(all?"all":"filtered")+"-"+new Date().toISOString().slice(0,10)+".zip";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href)},5000)}catch(err){alert("Export failed: "+err.message)}b.textContent=lab;b.disabled=false})})();
 render();
 })();
 </script></body></html>
