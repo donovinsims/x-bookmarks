@@ -1,5 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>X Bookmarks</title><meta name="color-scheme" content="dark light">
+<title>X Bookmarks</title><meta name="color-scheme" content="light dark"><script>(function(){var m=localStorage.getItem("bm-theme")||"system",d=m=="dark"||(m=="system"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.classList.toggle("dark",d);document.documentElement.style.colorScheme=d?"dark":"light"})()</script>
 <style>
 /* Tokens copied from cosscom/ui packages/ui/src/styles/globals.css (:root / .dark) with Tailwind v4.3 palette values. */
 @font-face{font-family:"Cal Sans";src:url(fonts/CalSansVF.woff2) format("woff2");font-weight:400 700;font-display:swap}
@@ -12,11 +12,11 @@
 --border:color-mix(in oklab,#000 8%,transparent);--input:color-mix(in oklab,#000 10%,transparent);--ring:var(--n400);--sidebar:var(--n50);
 --hl:0 1px color-mix(in oklab,#000 4%,transparent);--font-sans:"Cal Sans",ui-sans-serif,system-ui,sans-serif;
 --shadow-xs5:0 1px 2px 0 rgb(0 0 0/.05);--shadow-sm5:0 1px 3px 0 rgb(0 0 0/.05),0 1px 2px -1px rgb(0 0 0/.05);--shadow-lg5:0 10px 15px -3px rgb(0 0 0/.05),0 4px 6px -4px rgb(0 0 0/.05)}
-@media (prefers-color-scheme:dark){:root{--background:color-mix(in srgb,var(--n950) 96%,#fff);--foreground:var(--n100);--card:color-mix(in srgb,var(--background) 98%,#fff);--card-foreground:var(--n100);
+.dark{--background:color-mix(in srgb,var(--n950) 96%,#fff);--foreground:var(--n100);--card:color-mix(in srgb,var(--background) 98%,#fff);--card-foreground:var(--n100);
 --popover:color-mix(in srgb,var(--background) 96%,#fff);--popover-foreground:var(--n100);--primary:var(--n100);--primary-foreground:var(--n800);
 --secondary:color-mix(in oklab,#fff 4%,transparent);--secondary-foreground:var(--n100);--muted:color-mix(in oklab,#fff 4%,transparent);--muted-foreground:color-mix(in srgb,var(--n500) 90%,#fff);
 --accent:color-mix(in oklab,#fff 4%,transparent);--accent-foreground:var(--n100);--info-foreground:oklch(70.7% .165 254.624);--warning-foreground:oklch(82.8% .189 84.429);
---border:color-mix(in oklab,#fff 6%,transparent);--input:color-mix(in oklab,#fff 8%,transparent);--ring:var(--n500);--sidebar:color-mix(in srgb,var(--n950) 97%,#fff);--hl:0 -1px color-mix(in oklab,#fff 6%,transparent)}}
+--border:color-mix(in oklab,#fff 6%,transparent);--input:color-mix(in oklab,#fff 8%,transparent);--ring:var(--n500);--sidebar:color-mix(in srgb,var(--n950) 97%,#fff);--hl:0 -1px color-mix(in oklab,#fff 6%,transparent)}
 *{box-sizing:border-box;border-color:var(--border)}html,body{margin:0;background:var(--sidebar);color:var(--foreground);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;font-size:14px;line-height:1.43}
 .wrap{max-width:1416px;margin:0 auto;padding:40px 16px 80px}@media(min-width:1024px){.wrap{padding:48px 24px 80px}}
 /* Typography: CardTitle / SheetTitle scale */
@@ -36,7 +36,7 @@ h2{font-weight:600;font-size:18px;line-height:1;margin:40px 0 16px}
 .filters{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px;align-items:end}
 label.f{display:flex;flex-direction:column;gap:8px;font-weight:500;font-size:14px;line-height:16px;color:var(--foreground)}
 select,input[type=search],input[type=text]{appearance:none;width:100%;min-height:32px;border:1px solid var(--input);border-radius:var(--radius-lg);background:var(--background);background-clip:padding-box;color:var(--foreground);font:inherit;font-size:14px;padding:0 11px;box-shadow:var(--shadow-xs5),inset var(--hl);outline:none;transition:box-shadow .15s}
-@media (prefers-color-scheme:dark){select,input[type=search],input[type=text]{background-color:color-mix(in oklab,var(--input) 32%,transparent)}}
+.dark select,.dark input[type=search],.dark input[type=text]{background-color:color-mix(in oklab,var(--input) 32%,transparent)}
 select{padding-right:32px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3E%3Cpath d='m7 15 5 5 5-5M7 9l5-5 5 5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 9px center}
 select option{background:var(--popover);color:var(--popover-foreground)}input::placeholder{color:color-mix(in oklab,var(--muted-foreground) 72%,transparent)}
 select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0 0 3px color-mix(in oklab,var(--ring) 24%,transparent)}
@@ -50,7 +50,7 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .tabs{display:inline-flex;gap:2px;padding:2px;border-radius:var(--radius-lg);background:var(--muted);color:color-mix(in oklab,var(--muted-foreground) 72%,transparent)}
 .tabs button.s{border:1px solid transparent;border-radius:var(--radius-md);background:none;color:inherit;font:inherit;font-weight:500;font-size:14px;height:28px;padding:0 9px;cursor:pointer;transition:color .2s,background-color .2s}
 .tabs button.s:hover{color:var(--muted-foreground)}.tabs button.s.on{color:var(--foreground);background:var(--background);box-shadow:var(--shadow-sm5)}
-@media (prefers-color-scheme:dark){.tabs button.s.on{background:var(--input)}}
+.dark .tabs button.s.on{background:var(--input)}
 .btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:8px;height:36px;padding:0 13px;border:1px solid var(--input);border-radius:var(--radius-lg);background:var(--popover);background-clip:padding-box;color:var(--foreground);font:inherit;font-weight:500;font-size:14px;cursor:pointer;box-shadow:var(--shadow-xs5),inset var(--hl);text-decoration:none;white-space:nowrap}
 .btn:hover{background-color:color-mix(in oklab,var(--accent) 50%,var(--popover))}.btn.sm{height:32px;padding:0 9px}
 .count{margin-left:auto;display:inline-flex;align-items:center;height:18px;padding:0 3px;border-radius:var(--radius-sm);background:var(--secondary);color:var(--secondary-foreground);font-weight:500;font-size:12px;font-variant-numeric:tabular-nums}
@@ -63,7 +63,7 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .cat,.chip,.fv{display:inline-flex;align-items:center;gap:4px;height:18px;min-width:18px;padding:0 3px;border:1px solid transparent;border-radius:var(--radius-sm);font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .cat{border-color:var(--input);background:var(--background);color:var(--foreground);max-width:55%}.chip{background:var(--secondary);color:var(--secondary-foreground)}
 .chip.pj{background:color-mix(in oklab,var(--info) 8%,transparent);color:var(--info-foreground)}.fv{background:color-mix(in oklab,var(--warning) 8%,transparent);color:var(--warning-foreground);margin-left:auto}
-@media (prefers-color-scheme:dark){.chip.pj{background:color-mix(in oklab,var(--info) 16%,transparent)}.fv{background:color-mix(in oklab,var(--warning) 16%,transparent)}.cat{background:color-mix(in oklab,var(--input) 32%,transparent)}}
+.dark .chip.pj{background:color-mix(in oklab,var(--info) 16%,transparent)}.dark .fv{background:color-mix(in oklab,var(--warning) 16%,transparent)}.dark .cat{background:color-mix(in oklab,var(--input) 32%,transparent)}
 .hd{font-weight:600;font-size:16px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .chips{display:flex;flex-wrap:wrap;gap:4px}.tk{color:var(--muted-foreground);font-size:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 /* Media frame: Avatar image rules (object-cover, rounded inherit) in a radius-lg bordered box */
@@ -96,11 +96,16 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .cta{flex:1;position:relative;display:inline-flex;align-items:center;justify-content:center;height:36px;padding:0 13px;border:1px solid var(--primary);border-radius:var(--radius-lg);background:var(--primary);color:var(--primary-foreground);text-decoration:none;font-weight:500;font-size:14px;box-shadow:inset 0 1px rgb(255 255 255/.16),0 1px 2px 0 color-mix(in oklab,var(--primary) 24%,transparent)}
 .cta:hover{background:color-mix(in oklab,var(--primary) 90%,transparent)}
 .x,.btn,.cta,.bar,.tabs button.s{outline:none}.x:focus-visible,.btn:focus-visible,.cta:focus-visible,.tabs button.s:focus-visible{box-shadow:0 0 0 1px var(--background),0 0 0 3px var(--ring)}.tg{white-space:nowrap}
+.hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.tabs.theme button.s{height:28px}
+.px{white-space:pre-wrap;word-wrap:break-word;font-size:14px;line-height:1.5;color:var(--muted-foreground);display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+.stext a,.px a{color:var(--info-foreground);text-decoration:none;font-weight:500}.stext a:hover,.px a:hover{text-decoration:underline;text-underline-offset:4px}
+.stext p{margin:0 0 12px}
 body.lock{overflow:hidden}
 @media (max-width:719px){.metrics{grid-template-columns:repeat(2,1fr)}.bars{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.btn,.cta{height:40px}}
 </style></head><body>
 <div class="wrap">
-<h1>X Bookmarks</h1><p class="sub" id="sub"></p>
+<div class="hdr"><div><h1>X Bookmarks</h1><p class="sub" id="sub"></p></div><div class="tabs theme" id="theme" role="radiogroup" aria-label="Theme"><button class="s" data-t="light">Light</button><button class="s" data-t="dark">Dark</button><button class="s" data-t="system">System</button></div></div>
 <div class="metrics" id="metrics"></div>
 <div class="bars" id="bars"></div>
 <h2>Browse</h2>
@@ -124,6 +129,12 @@ var B=window.BM||[],$=function(i){return document.getElementById(i)},esc=functio
 var nf=function(n){return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(1)+"k":String(n)};
 var fmtD=function(d){var p=d.split("-");return new Date(+p[0],p[1]-1,+p[2]).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})};
 var cnt=function(f){var m={};B.forEach(function(r){[].concat(f(r)).forEach(function(k){if(k)m[k]=(m[k]||0)+1})});return Object.keys(m).map(function(k){return[k,m[k]]}).sort(function(a,b){return b[1]-a[1]})};
+var LK=/(https?:\/\/[^\s<>"]+[^\s<>".,;:!?)\]'])|(^|[^\w@])(@\w{1,15})|(^|[^\w&#])(#(?=[\p{N}_]*\p{L})[\p{L}\p{N}_]+)/gu;
+function linkify(t){t=String(t||"");var out="",last=0,m;LK.lastIndex=0;while((m=LK.exec(t))){var st=m.index,pre="",tok,href;if(m[1]){tok=m[1];href=tok}else if(m[3]){pre=m[2];tok=m[3];href="https://x.com/"+tok.slice(1)}else{pre=m[4];tok=m[5];href="https://x.com/hashtag/"+encodeURIComponent(tok.slice(1))}
+out+=esc(t.slice(last,st))+esc(pre)+'<a href="'+esc(href)+'" target="_blank" rel="noopener" onclick="event.stopPropagation()">'+esc(tok)+'</a>';last=st+m[0].length}return out+esc(t.slice(last))}
+function setTheme(m){localStorage.setItem("bm-theme",m);var d=m=="dark"||(m=="system"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.classList.toggle("dark",d);document.documentElement.style.colorScheme=d?"dark":"light";[].forEach.call(document.querySelectorAll("#theme button"),function(b){b.classList.toggle("on",b.dataset.t==m);b.setAttribute("aria-checked",b.dataset.t==m)})}
+setTheme(localStorage.getItem("bm-theme")||"system");$("theme").addEventListener("click",function(e){var b=e.target.closest("button");if(b)setTheme(b.dataset.t)});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",function(){if((localStorage.getItem("bm-theme")||"system")=="system")setTheme("system")});
 var cats=cnt(function(r){return r.c}),purs=cnt(function(r){return r.p}),pjs=cnt(function(r){return r.j});
 var minD=B.reduce(function(a,r){return r.d<a?r.d:a},"9999");
 $("sub").textContent=B.length.toLocaleString()+" saved posts · back to "+fmtD(minD)+" · synced "+(window.BM_SYNC||"");
@@ -142,7 +153,7 @@ r.sort(sort=="o"?function(x,y){return x.o-y.o}:sort=="d"?function(x,y){return x.
 function thumbs(m){if(!m.length)return"";var s=m.slice(0,4);return'<div class="thumbs n'+s.length+'">'+s.map(function(x){return'<div class="th"><img loading="lazy" decoding="async" alt="" src="'+esc(x.img)+(x.img.indexOf("pbs.twimg.com/media")>=0?"?name=small":"")+'">'+(x.t!="photo"?'<span class="play"></span>':"")+'</div>'}).join("")+'</div>'}
 var cur=[];
 function render(){cur=list();$("count").textContent=cur.length.toLocaleString()+" shown";
-$("grid").innerHTML=cur.slice(0,lim).map(function(r,ix){return'<div class="card" role="button" tabindex="0" data-ix="'+ix+'"><div class="top"><span class="au">@'+esc(r.a)+'</span><span class="cat">'+esc(r.c)+'</span></div>'+thumbs(r.m)+'<div class="hd">'+esc(r.h)+'</div><div class="chips">'+r.p.map(function(p){return'<span class="chip">'+esc(p)+'</span>'}).join("")+r.j.map(function(p){return'<span class="chip pj">'+esc(p)+'</span>'}).join("")+'</div>'+(r.t&&r.t!=r.h?'<div class="tk">'+esc(r.t)+'</div>':"")+'<div class="ft"><span>'+fmtD(r.d)+'</span><span>'+nf(r.l)+' likes</span>'+(r.k=="article"?'<span>Article</span>':"")+(r.fav?'<span class="fv">Favorite</span>':"")+'</div></div>'}).join("");
+$("grid").innerHTML=cur.slice(0,lim).map(function(r,ix){return'<div class="card" role="button" tabindex="0" data-ix="'+ix+'"><div class="top"><span class="au">@'+esc(r.a)+'</span><span class="cat">'+esc(r.c)+'</span></div>'+thumbs(r.m)+''+(r.k=="article"?'<div class="hd">'+esc(r.h)+'</div>':'<div class="px">'+linkify(r.x)+'</div>')+'<div class="chips">'+r.p.map(function(p){return'<span class="chip">'+esc(p)+'</span>'}).join("")+r.j.map(function(p){return'<span class="chip pj">'+esc(p)+'</span>'}).join("")+'</div>'+(r.k=="article"&&r.t&&r.t!=r.h?'<div class="tk">'+esc(r.t)+'</div>':"")+'<div class="ft"><span>'+fmtD(r.d)+'</span><span>'+nf(r.l)+' likes</span>'+(r.k=="article"?'<span>Article</span>':"")+(r.fav?'<span class="fv">Favorite</span>':"")+'</div></div>'}).join("");
 $("more").style.display=cur.length>lim?"":"none";$("more").textContent="Show more ("+(cur.length-lim).toLocaleString()+" left)"}
 ["fc","fp","fj","fd","fm","ff"].forEach(function(i){$(i).addEventListener("change",function(){lim=24;render()})});["fa","fs"].forEach(function(i){$(i).addEventListener("input",function(){lim=24;render()})});
 $("sorts").addEventListener("click",function(e){var b=e.target.closest("button.s");if(!b)return;sort=b.dataset.s;[].forEach.call(document.querySelectorAll("button.s"),function(x){x.classList.toggle("on",x==b)});render()});
@@ -152,7 +163,7 @@ $("more").onclick=function(){lim+=24;render()};
 var fullReq=false;function needFull(){if(window.BM_FULL||fullReq)return;fullReq=true;var s=document.createElement("script");s.src="full.js";document.body.appendChild(s)}
 window.addEventListener("bmfull",function(){if(open)fillText(open)});
 var sh=$("sheet"),sc=$("scrim"),open=null,lastFocus=null;
-function fillText(r){var el=sh.querySelector(".stext");if(!el)return;var f=window.BM_FULL&&window.BM_FULL[r.i];el.textContent=f||r.x||r.h;}
+function fillText(r){var el=sh.querySelector(".stext");if(!el)return;var f=window.BM_FULL&&window.BM_FULL[r.i];el.innerHTML=linkify(f||r.x||r.h);}
 function media(m){return m.map(function(x){if(x.t=="photo")return'<img alt="" src="'+esc(x.img)+(x.img.indexOf("pbs.twimg.com/media")>=0?"?name=large":"")+'">';if(x.v)return'<video controls playsinline preload="none" poster="'+esc(x.img)+'" src="'+esc(x.v)+'"></video>';return'<a class="vfb" href="https://x.com/i/status/'+open.i+'" target="_blank" rel="noopener"><img alt="" src="'+esc(x.img)+'"><span class="play"></span></a>'}).join("")}
 function show(r){open=r;needFull();lastFocus=document.activeElement;
 sh.innerHTML='<div class="grab"><i></i></div><div class="shead"><div class="av">'+esc(r.a[0]||"?").toUpperCase()+'</div><div class="who"><b>@'+esc(r.a)+'</b><span>'+fmtD(r.d)+' · '+esc(r.c)+'</span></div><button class="x" aria-label="Close"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button></div><div class="sbody">'+(r.k=="article"?'<h3 class="stitle">'+esc(r.h)+'</h3>':"")+'<div class="stext"></div>'+(r.m.length?'<div class="smedia">'+media(r.m)+'</div>':"")+'<div class="stats"><span>'+r.l.toLocaleString()+' likes</span><span>'+r.b.toLocaleString()+' saves</span>'+(r.k=="article"?'<span>Article</span>':"")+'</div><div class="chips">'+r.p.map(function(p){return'<span class="chip">'+esc(p)+'</span>'}).join("")+r.j.map(function(p){return'<span class="chip pj">'+esc(p)+'</span>'}).join("")+'</div>'+(r.t?'<div class="tkbox"><small>Takeaway</small><span>'+esc(r.t)+'</span></div>':"")+(r.n?'<div class="tkbox"><small>Notes</small><span>'+esc(r.n)+'</span></div>':"")+'</div><div class="sfoot"><a class="cta" href="https://x.com/'+esc(r.a)+'/status/'+r.i+'" target="_blank" rel="noopener">Open on X</a></div>';
