@@ -1,16 +1,36 @@
 # X bookmarks index
 
-366 bookmarks, newest first. Exported 2026-10-31T16:36:38-05:00.
+398 bookmarks, newest first. Exported 2026-11-01T08:58:32-06:00.
 
 | date | author | posts | title |
 |---|---|---|---|
+| 2026-10-31 | @remoduzk | 1 | [How to Use GrokBot for Cold Email without doing a single thing (yes really)](md/2026-10-31-remoduzk-2116730731271426432.md) |
+| 2026-10-31 | @ericosiu | 1 | [The AEO/SEO bot template, free on Skills Dojo: https://skillsdojo.com/templates/Jyx1Lg-VzYgyjDc-y-GQi](md/2026-10-31-ericosiu-2116694823151284248.md) |
+| 2026-10-31 | @ericosiu | 2 | [How we published 20+ SEO blog posts in 1 week and kept the bar unreasonably high.](md/2026-10-31-ericosiu-2116694821477728526.md) |
+| 2026-10-31 | @Solomonrojie | 1 | [THIS IS F*CKING DANGEROUS](md/2026-10-31-Solomonrojie-2116659652062822654.md) |
+| 2026-10-31 | @BowTiedBills | 1 | [5 Ways To Make More Money As A Local Business...](md/2026-10-31-BowTiedBills-2116656311026733211.md) |
+| 2026-10-31 | @imcaiden | 1 | [blows my mind that more local service businesses aren't using public data to find customers...](md/2026-10-31-imcaiden-2116605851020800130.md) |
+| 2026-10-31 | @coldemailchris | 11 | [If you sell to small businesses, I'm begging you:](md/2026-10-31-coldemailchris-2116592036300357934.md) |
+| 2026-10-31 | @RohOnChain | 1 | [this is MOST dangerous thing on the internet today](md/2026-10-31-RohOnChain-2116589860861739023.md) |
+| 2026-10-31 | @0xForce_ | 1 | [THIS IS FCK***** DANGEROUS](md/2026-10-31-0xForce_-2116583518679539990.md) |
+| 2026-10-31 | @poteto | 2 | [here’s a short grok bot guide on how i create high quality bots and manage my team. ask @bot to read this post and help…](md/2026-10-31-poteto-2116576229319233596.md) |
 | 2026-10-31 | @Jayyanginspires | 1 | [It hurt my soul to release this article.](md/2026-10-31-Jayyanginspires-2116570314272362577.md) |
+| 2026-10-31 | @0x_kaize | 1 | [The Ultimate Grok Bot Collection: Prompts, Templates And Resources](md/2026-10-31-0x_kaize-2116563190712856662.md) |
+| 2026-10-31 | @DotComParker | 1 | [I’ve built the ultimate credit repair bot, using GrokBot, and you can have it for free.](md/2026-10-31-DotComParker-2116561333378560212.md) |
+| 2026-10-31 | @sairahul1 | 1 | [I just built the largest collection of X Articles (100K+ views) to turn Claude into the best headline writer, hook writ…](md/2026-10-31-sairahul1-2116537928998408366.md) |
 | 2026-10-31 | @alexgroberman | 1 | [About 50% of ChatGPT citations came from pages ranking #1 on Google.](md/2026-10-31-alexgroberman-2116537348871913956.md) |
 | 2026-10-31 | @Jayyanginspires | 2 | [The 2027 Marketing Playbook: How to Generate So Much Demand It Breaks Your Business](md/2026-10-31-Jayyanginspires-2116534636188729593.md) |
+| 2026-10-31 | @alicialyttle | 2 | [This prompt will find the money plan hiding in your resume...](md/2026-10-31-alicialyttle-2116531964807180521.md) |
+| 2026-10-31 | @linchun3_ | 1 | [Stop Fixing Your Coding Agents. Fix Your Repo.](md/2026-10-31-linchun3_-2116529333225525575.md) |
 | 2026-10-31 | @bloggersarvesh | 2 | [laugh at me all you want...but I will keep repeating this..](md/2026-10-31-bloggersarvesh-2116522765620793723.md) |
 | 2026-10-31 | @paolo_scales | 1 | [How to Use Grok Bot for LinkedIn So Well It Feels Illegal](md/2026-10-31-paolo_scales-2116511723167289793.md) |
 | 2026-10-31 | @BuzzMalx | 1 | [How to Build an AI Content System (Full 2026 Setup Guide)](md/2026-10-31-BuzzMalx-2116507869570838678.md) |
+| 2026-10-31 | @SamuelBeek | 1 | [We went from 0 to 100K Instagram followers in 6 months, and here's how you can do it too](md/2026-10-31-SamuelBeek-2116507743003562130.md) |
 | 2026-10-31 | @bloggersarvesh | 1 | [LOCAL SEO MAXXING WITH GROK BOT:](md/2026-10-31-bloggersarvesh-2116505984093098060.md) |
+| 2026-10-31 | @MercureCopy | 1 | [How to tell captivating stories (that actually sell)](md/2026-10-31-MercureCopy-2116494514508476646.md) |
+| 2026-10-31 | @Zephyr_hg | 1 | [the fix for a messy computer: https://twitter.com/1996934038138044416/status/2116100308975960417](md/2026-10-31-Zephyr_hg-2116494392198644196.md) |
+| 2026-10-31 | @BowTiedBills | 2 | [This is a MASTERCLASS in local SEO from Aspen Dental.](md/2026-10-31-BowTiedBills-2116487106352795869.md) |
+| 2026-10-30 | @milesdeutscher | 1 | [Grok Bot can fully control your TradingView.](md/2026-10-30-milesdeutscher-2116332833052794967.md) |
 | 2026-10-30 | @s4yonnara | 1 | [HOLY F*CK. you're still building AI agents from scratch while an entire army of ready-made bots is sitting on GitHub fo…](md/2026-10-30-s4yonnara-2116286728872792488.md) |
 | 2026-10-30 | @tonysimons | 1 | [Hermes Keeps Forgetting? You Might Be Using the Wrong File.](md/2026-10-30-tonysimons-2116270639644622969.md) |
 | 2026-10-30 | @unicodef1wn | 2 | [i put everything spacexsi's own engineers taught about grok bot into one 90-page guide. it's free](md/2026-10-30-unicodef1wn-2116223099972841939.md) |
@@ -22,27 +42,37 @@
 | 2026-10-30 | @ryangrowthh | 1 | [The Ultimate Guide to Organic Marketing & Content](md/2026-10-30-ryangrowthh-2116166952406372602.md) |
 | 2026-10-30 | @bloggersarvesh | 2 | [trying to use AI agents for SEO without reading this article be like:](md/2026-10-30-bloggersarvesh-2116158676302172515.md) |
 | 2026-10-30 | @Zephyr_hg | 2 | [Send this prompt to Claude.](md/2026-10-30-Zephyr_hg-2116130509445300397.md) |
+| 2026-10-30 | @AISystems_hq | 2 | [Claude can now clean up your messy computer like a $65 per hour organizer.](md/2026-10-30-AISystems_hq-2116100308975960417.md) |
 | 2026-10-29 | @MichLieben | 2 | [Your TAM shows you the whole market. Your TAL tells you who to email first.](md/2026-10-29-MichLieben-2115914970672271755.md) |
 | 2026-10-29 | @lukepierceops | 1 | [From zero clients to $80K a month, we broke down all 52 interviews and wrote the next 90 days for each type:](md/2026-10-29-lukepierceops-2115897657310998956.md) |
+| 2026-10-29 | @ryangrowthh | 1 | [46 random, odd things that have genuinely changed my life:](md/2026-10-29-ryangrowthh-2115881358358704325.md) |
 | 2026-10-29 | @LoganTGott | 1 | [the art of becoming known:](md/2026-10-29-LoganTGott-2115866119160619308.md) |
 | 2026-10-29 | @everestchris6 | 1 | [this grok bot prompt will run your whole marketing on autopilot](md/2026-10-29-everestchris6-2115854614046347374.md) |
 | 2026-10-29 | @everestchris6 | 2 | [how to automate marketing with grok bot (FULL GUIDE)](md/2026-10-29-everestchris6-2115850129693688001.md) |
 | 2026-10-29 | @m4lkxx | 1 | [Grok Bot: 6 Bots, 200+ Agents, a Smaller Bill (Full Setup)](md/2026-10-29-m4lkxx-2115775972536434946.md) |
+| 2026-10-28 | @ryangrowthh | 1 | [The science behind writing viral social media hooks.](md/2026-10-28-ryangrowthh-2115639776120647798.md) |
 | 2026-10-28 | @ryangrowthh | 2 | [How to build a personal brand on 𝕏.](md/2026-10-28-ryangrowthh-2115618441571013084.md) |
 | 2026-10-28 | @dsqjaffa | 1 | [How to become a Marketing Engineer for social media with Claude in 30 days (Full Guide)](md/2026-10-28-dsqjaffa-2115474521335460197.md) |
+| 2026-10-28 | @ryangrowthh | 1 | [Deep dive into the current state of the 𝕏 algorithm.](md/2026-10-28-ryangrowthh-2115473675507917266.md) |
+| 2026-10-28 | @OpenNavo | 1 | [Go to "System Settings" > "General" > "Storage" and check for the files taking up the most space. Move the files you wi…](md/2026-10-28-OpenNavo-2115448996764565995.md) |
 | 2026-10-28 | @thejayden | 1 | [How to Automate Your Life With Grok Bot (Full System + PROMPTS)](md/2026-10-28-thejayden-2115388434025955778.md) |
 | 2026-10-27 | @khookhar | 8 | [Today, we’re introducing the next chapter of Concurrence and the world’s greatest leap toward Superintelligent Care.](md/2026-10-27-khookhar-2115137228846567684.md) |
 | 2026-10-27 | @tuanle | 1 | [What Getting 3 Billion Views Taught Me About Human Psychology](md/2026-10-27-tuanle-2115096249133420865.md) |
+| 2026-10-26 | @kaitodan | 1 | [https://lasobremesa.cc/edition/12](md/2026-10-26-kaitodan-2114769965588832484.md) |
 | 2026-10-25 | @0xCarnagee | 1 | [Holy f*ck… SpaceXAI engineer Lauren Tan just dropped the prompt her agents run on](md/2026-10-25-0xCarnagee-2114508797758627894.md) |
 | 2026-10-25 | @shannholmberg | 1 | [the future way of operating SaaS will be to sell outcomes](md/2026-10-25-shannholmberg-2114439365246242941.md) |
 | 2026-10-25 | @speedrunjaen | 1 | [The Grok Bot agent that runs my LinkedIn outreach is currently getting a 36% reply rate on cold outreach and are genera…](md/2026-10-25-speedrunjaen-2114322966456541496.md) |
 | 2026-10-24 | @edendotso | 1 | [Anti-Selling: How to Sell Anything Without Feeling Gross](md/2026-10-24-edendotso-2114122716865282086.md) |
 | 2026-10-24 | @bretonwill | 1 | [We've been running our ENTIRE GTM through a Hermes agent…](md/2026-10-24-bretonwill-2113989944918372600.md) |
+| 2026-10-24 | @claudeskills101 | 13 | [Anyone can clean up a messy computer with Claude Code. These 8 prompts cover 8 file chores.](md/2026-10-24-claudeskills101-2113963980666626091.md) |
+| 2026-10-23 | @ryangrowthh | 2 | [I open-sourced my viral Head of Content Grok Bot.](md/2026-10-23-ryangrowthh-2113805174103756932.md) |
+| 2026-10-22 | @Serantych | 1 | [REA + GrokBot: Reverse Engineer Apps and Build Your Own Features (Full Guide)](md/2026-10-22-Serantych-2113332023431405772.md) |
 | 2026-10-22 | @ryangrowthh | 1 | [Grok Bot as Your Head of Content (FULL GUIDE)](md/2026-10-22-ryangrowthh-2113276573793267911.md) |
 | 2026-10-21 | @Zephyr_hg | 1 | [Hand real work to AI by giving every bot one job: the four-bot team that runs my X account](md/2026-10-21-Zephyr_hg-2112876834182541338.md) |
 | 2026-10-21 | @ryangrowthh | 2 | [Grok Bot is basically AGI for 𝕏 content.](md/2026-10-21-ryangrowthh-2112816157682204822.md) |
 | 2026-10-19 | @eng_khairallah1 | 1 | [grok bot is f**king insane.](md/2026-10-19-eng_khairallah1-2112151307884876044.md) |
 | 2026-10-18 | @bl888m_eth | 1 | [How to Build Anything with Grok Bot (Full Course)](md/2026-10-18-bl888m_eth-2111807986813251951.md) |
+| 2026-10-16 | @0xKense1 | 2 | [Stop Hitting Claude Code Limits: 7 Best Practices, Tested on 945 Runs](md/2026-10-16-0xKense1-2111105138290987198.md) |
 | 2026-10-16 | @ryangrowthh | 2 | [Distribution 101: A Guide to Reaching Millions](md/2026-10-16-ryangrowthh-2111080389565640897.md) |
 | 2026-10-13 | @0x_kaize | 1 | [How to Save Tokens in Grok Bot Without Upgrading Your Plan](md/2026-10-13-0x_kaize-2110055685048209702.md) |
 | 2026-10-13 | @LoganTGott | 1 | [How to Figure Out Exactly What to Post (In 1 Afternoon)](md/2026-10-13-LoganTGott-2110026682857906304.md) |
@@ -188,6 +218,7 @@
 | 2026-08-25 | @EXM7777 | 1 | [this is the only right approach to managing context for your business, highly recommend reading & applying this:](md/2026-08-25-EXM7777-2092245141188944051.md) |
 | 2026-08-25 | @OriSilver | 1 | [We just open-sourced our entire marketing playbook.](md/2026-08-25-OriSilver-2092225524210827424.md) |
 | 2026-08-24 | @lukepierceops | 1 | [I shouldn't do this again but I'm doing it anyway.](md/2026-08-24-lukepierceops-2091949409231880377.md) |
+| 2026-08-19 | @mikenevermiss | 1 | [ALL the free AI resources that exist in 2026 (nobody uses them)](md/2026-08-19-mikenevermiss-2090300976670425489.md) |
 | 2026-08-19 | @gippp69 | 1 | [Kimi Ships a $39/Month Feature For Free. Here's How To Actually Set It Up (Full Guide)](md/2026-08-19-gippp69-2090010446736859302.md) |
 | 2026-08-18 | @EXM7777 | 2 | [How to build a GTM machine from 0 to $10k MRR](md/2026-08-18-EXM7777-2089714608244457543.md) |
 | 2026-08-18 | @0xCodez | 1 | [Grok Bot Agents: how to automate your life in 10 Steps (Full-tutorial)](md/2026-08-18-0xCodez-2089676836619878567.md) |
@@ -266,6 +297,7 @@
 | 2026-07-28 | @eptwts | 1 | [distribution 101: how to sell your products](md/2026-07-28-eptwts-2082083321383997553.md) |
 | 2026-07-24 | @HermesWatcher | 1 | [Meet Havoc: Why I Gave Hermes Its Own Manager](md/2026-07-24-HermesWatcher-2080816780503892253.md) |
 | 2026-07-24 | @mikenevermiss | 1 | [How to Build and Automate Anything with Claude, Kimi K3, and Beyond](md/2026-07-24-mikenevermiss-2080532258960597249.md) |
+| 2026-07-19 | @Bober_smart | 2 | [Claude Second Brain & Folder Workflow: The Complete Guide](md/2026-07-19-Bober_smart-2078784709253841039.md) |
 | 2026-07-18 | @EXM7777 | 1 | [How to build your first team of agents:](md/2026-07-18-EXM7777-2078476892127318295.md) |
 | 2026-07-13 | @draprints | 1 | [internal secrets behind 3-4 MILLION linkedin dm's sent...](md/2026-07-13-draprints-2076775636169900333.md) |
 | 2026-07-13 | @alex_verem | 1 | [AI Engineer World's Fair just released 6 segments on why local AI will be the default:](md/2026-07-13-alex_verem-2076771322156478896.md) |
