@@ -1,9 +1,10 @@
 # X bookmarks index
 
-398 bookmarks, newest first. Exported 2026-11-01T08:58:32-06:00.
+402 bookmarks, newest first. Exported 2026-11-01T22:52:23-06:00.
 
 | date | author | posts | title |
 |---|---|---|---|
+| 2026-11-01 | @VengeonsP | 1 | [your primary GBP category is what you sell most. not the one that sounds closest](md/2026-11-01-VengeonsP-2116918751123611884.md) |
 | 2026-10-31 | @remoduzk | 1 | [How to Use GrokBot for Cold Email without doing a single thing (yes really)](md/2026-10-31-remoduzk-2116730731271426432.md) |
 | 2026-10-31 | @ericosiu | 1 | [The AEO/SEO bot template, free on Skills Dojo: https://skillsdojo.com/templates/Jyx1Lg-VzYgyjDc-y-GQi](md/2026-10-31-ericosiu-2116694823151284248.md) |
 | 2026-10-31 | @ericosiu | 2 | [How we published 20+ SEO blog posts in 1 week and kept the bar unreasonably high.](md/2026-10-31-ericosiu-2116694821477728526.md) |
@@ -59,6 +60,7 @@
 | 2026-10-27 | @khookhar | 8 | [Today, we’re introducing the next chapter of Concurrence and the world’s greatest leap toward Superintelligent Care.](md/2026-10-27-khookhar-2115137228846567684.md) |
 | 2026-10-27 | @tuanle | 1 | [What Getting 3 Billion Views Taught Me About Human Psychology](md/2026-10-27-tuanle-2115096249133420865.md) |
 | 2026-10-26 | @kaitodan | 1 | [https://lasobremesa.cc/edition/12](md/2026-10-26-kaitodan-2114769965588832484.md) |
+| 2026-10-26 | @VK_ROXy | 1 | [Your Grok Bot Is Burning Your Plan: The One-Bot Setup That Does 10x More (Full Course)](md/2026-10-26-VK_ROXy-2114672170932523477.md) |
 | 2026-10-25 | @0xCarnagee | 1 | [Holy f*ck… SpaceXAI engineer Lauren Tan just dropped the prompt her agents run on](md/2026-10-25-0xCarnagee-2114508797758627894.md) |
 | 2026-10-25 | @shannholmberg | 1 | [the future way of operating SaaS will be to sell outcomes](md/2026-10-25-shannholmberg-2114439365246242941.md) |
 | 2026-10-25 | @speedrunjaen | 1 | [The Grok Bot agent that runs my LinkedIn outreach is currently getting a 36% reply rate on cold outreach and are genera…](md/2026-10-25-speedrunjaen-2114322966456541496.md) |
@@ -88,6 +90,7 @@
 | 2026-10-10 | @turanselvi | 1 | [How to Generate 1B Views in 60 Days (Full Course)](md/2026-10-10-turanselvi-2108928925225091079.md) |
 | 2026-10-09 | @boringmarketer | 1 | [Get Boring Businesses More Customers with AI Agents (and sell it as a service)](md/2026-10-09-boringmarketer-2108588421992071334.md) |
 | 2026-10-08 | @coreyganim | 1 | [HOW TO LAND $8K/MONTH CLIENTS SELLING MANAGED AI AGENTS (FULL COURSE)](md/2026-10-08-coreyganim-2108233785061875903.md) |
+| 2026-10-08 | @planepowers | 1 | [2/7 Agents entered the club](md/2026-10-08-planepowers-2108222206211707266.md) |
 | 2026-10-07 | @levikmunneke | 1 | [how I pulled 100,000 leads for free with claude code](md/2026-10-07-levikmunneke-2107984629269438754.md) |
 | 2026-10-07 | @TheCoolestCool | 1 | [How To Build A $10M Personal Brand (Full Playbook)](md/2026-10-07-TheCoolestCool-2107961713232601248.md) |
 | 2026-10-07 | @draprints | 1 | [the complete guide to running linkedin outbound...](md/2026-10-07-draprints-2107914867998953518.md) |
@@ -297,6 +300,7 @@
 | 2026-07-28 | @eptwts | 1 | [distribution 101: how to sell your products](md/2026-07-28-eptwts-2082083321383997553.md) |
 | 2026-07-24 | @HermesWatcher | 1 | [Meet Havoc: Why I Gave Hermes Its Own Manager](md/2026-07-24-HermesWatcher-2080816780503892253.md) |
 | 2026-07-24 | @mikenevermiss | 1 | [How to Build and Automate Anything with Claude, Kimi K3, and Beyond](md/2026-07-24-mikenevermiss-2080532258960597249.md) |
+| 2026-07-23 | @eptwts | 1 | [this system will change your life...](md/2026-07-23-eptwts-2080342488728904164.md) |
 | 2026-07-19 | @Bober_smart | 2 | [Claude Second Brain & Folder Workflow: The Complete Guide](md/2026-07-19-Bober_smart-2078784709253841039.md) |
 | 2026-07-18 | @EXM7777 | 1 | [How to build your first team of agents:](md/2026-07-18-EXM7777-2078476892127318295.md) |
 | 2026-07-13 | @draprints | 1 | [internal secrets behind 3-4 MILLION linkedin dm's sent...](md/2026-07-13-draprints-2076775636169900333.md) |
