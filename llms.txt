@@ -1,6 +1,6 @@
 # X Bookmarks
 
-> Donovin's saved X (Twitter) bookmarks posted on or after 2026-06-01 (America/Chicago), one Markdown file per bookmark. 418 bookmarks. Exported 2026-11-02T08:58:20-06:00.
+> Donovin's saved X (Twitter) bookmarks posted on or after 2026-06-01 (America/Chicago), one Markdown file per bookmark. 436 bookmarks. Exported 2026-11-03T08:51:55-06:00.
 
 Post text is exactly as shown on X: original line breaks, t.co links expanded, hidden media and quote links removed.
 
