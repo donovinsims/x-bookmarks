@@ -64,7 +64,7 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .cat,.chip,.fv{display:inline-flex;align-items:center;gap:4px;height:18px;min-width:18px;padding:0 3px;border:1px solid transparent;border-radius:var(--radius-sm);font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .cat{border-color:var(--input);background:var(--background);color:var(--foreground);max-width:55%}.chip{background:var(--secondary);color:var(--secondary-foreground)}
 .chip.pj{background:color-mix(in oklab,var(--info) 8%,transparent);color:var(--info-foreground)}.fv{background:color-mix(in oklab,var(--warning) 8%,transparent);color:var(--warning-foreground);margin-left:auto}
-.chip[data-c],.cat[data-c]{--pc:var(--cL);color:var(--pc);background:color-mix(in oklab,var(--pc) 12%,transparent);border-color:transparent}.dark .chip[data-c],.dark .cat[data-c]{--pc:var(--cD);background:color-mix(in oklab,var(--pc) 18%,transparent)}
+.chip[data-c],.cat[data-c]{color:#fff;background:var(--tb);border-color:transparent;font-weight:500}.dark .chip.pj[data-c],.chip.pj[data-c],.dark .chip[data-c],.dark .cat[data-c]{color:#fff;background:var(--tb)}
 .dark .chip.pj{background:color-mix(in oklab,var(--info) 16%,transparent)}.dark .fv{background:color-mix(in oklab,var(--warning) 16%,transparent)}.dark .cat{background:color-mix(in oklab,var(--input) 32%,transparent)}
 .hd{font-weight:600;font-size:16px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .chips{display:flex;flex-wrap:wrap;gap:4px}.tk{color:var(--muted-foreground);font-size:14px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
@@ -148,9 +148,8 @@ body.lock{overflow:hidden}
 <script>
 (function(){
 var B=window.BM||[],$=function(i){return document.getElementById(i)},esc=function(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
-var PAL=[["#2563eb","#60a5fa"],["#7c3aed","#a78bfa"],["#db2777","#f472b6"],["#dc2626","#f87171"],["#c2410c","#fb923c"],["#a16207","#facc15"],["#4d7c0f","#a3e635"],["#15803d","#4ade80"],["#0f766e","#2dd4bf"],["#0e7490","#22d3ee"],["#4f46e5","#818cf8"],["#9333ea","#c084fc"],["#be123c","#fb7185"],["#b45309","#fbbf24"]];
-var TAGS={};function tagc(n){if(!(n in TAGS)){var h=0;for(var i=0;i<n.length;i++)h=(h*31+n.charCodeAt(i))>>>0;TAGS[n]=h%PAL.length}return PAL[TAGS[n]]}
-function badge(cls,n){var c=tagc(n);return'<span class="'+cls+'" data-c style="--cL:'+c[0]+';--cD:'+c[1]+'">'+esc(n)+'</span>'}
+var TAGFIX={"Grok Bot & Agents": "#2563eb", "Local SEO & GEO": "#15803d", "Content & Growth": "#c2410c", "Outbound & Leads": "#dc2626", "AI Services & Agency": "#7e22ce", "Business & Mindset": "#0f766e", "Trading & Finance": "#b45309", "Other": "#475569", "guide": "#1e3a8a", "tactic": "#be185d", "content seed": "#4d7c0f", "tool": "#0e7490", "prompt": "#6d28d9", "idea": "#92400e", "Grok Bot Setup": "#4338ca", "Clockout": "#047857", "X Growth": "#a21caf", "Trading": "#be123c"};var PAL=["#2563eb", "#15803d", "#c2410c", "#dc2626", "#7e22ce", "#0f766e", "#b45309", "#475569", "#1e3a8a", "#be185d", "#4d7c0f", "#0e7490", "#6d28d9", "#92400e", "#4338ca", "#047857", "#a21caf", "#be123c", "#0369a1", "#57534e", "#854d0e", "#3f3f46"];var USE={};for(var _k in TAGFIX)USE[TAGFIX[_k]]=(USE[TAGFIX[_k]]||0)+1;var TAGS={};function tagc(n){if(TAGFIX[n])return TAGFIX[n];if(!(n in TAGS)){var b=PAL[0];PAL.forEach(function(c){if((USE[c]||0)<(USE[b]||0))b=c});USE[b]=(USE[b]||0)+1;TAGS[n]=b}return TAGS[n]}
+function badge(cls,n){var c=tagc(n);return'<span class="'+cls+'" data-c style="--tb:'+c+'">'+esc(n)+'</span>'}
 var nf=function(n){return n>=1e6?(n/1e6).toFixed(1)+"M":n>=1e3?(n/1e3).toFixed(1)+"k":String(n)};
 var fmtD=function(d){var p=d.split("-");return new Date(+p[0],p[1]-1,+p[2]).toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})};
 var cnt=function(f){var m={};B.forEach(function(r){[].concat(f(r)).forEach(function(k){if(k)m[k]=(m[k]||0)+1})});return Object.keys(m).map(function(k){return[k,m[k]]}).sort(function(a,b){return b[1]-a[1]})};
