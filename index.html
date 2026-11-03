@@ -96,7 +96,16 @@ select:focus-visible,input:focus-visible{border-color:var(--ring);box-shadow:0 0
 .cta{flex:1;position:relative;display:inline-flex;align-items:center;justify-content:center;height:36px;padding:0 13px;border:1px solid var(--primary);border-radius:var(--radius-lg);background:var(--primary);color:var(--primary-foreground);text-decoration:none;font-weight:500;font-size:14px;box-shadow:inset 0 1px rgb(255 255 255/.16),0 1px 2px 0 color-mix(in oklab,var(--primary) 24%,transparent)}
 @media (hover:hover){.cta:hover{background:color-mix(in oklab,var(--primary) 90%,transparent)}}
 .x,.btn,.cta,.bar,.tabs button.s{outline:none}.x:focus-visible,.btn:focus-visible,.cta:focus-visible,.tabs button.s:focus-visible{box-shadow:0 0 0 1px var(--background),0 0 0 3px var(--ring)}.tg{white-space:nowrap}
-.hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.hdr{display:flex;justify-content:flex-end;margin-bottom:8px}
+.hero{text-align:center;max-width:760px;margin:8px auto 32px;padding:0 4px}
+.hero h1{font-family:"Cal Sans",var(--font-heading,inherit);font-weight:700;font-size:clamp(40px,8.5vw,76px);line-height:1.02;letter-spacing:-.025em;margin:0 0 20px;text-wrap:balance}
+.hero .lead{color:var(--muted-foreground);font-size:clamp(18px,3.4vw,26px);line-height:1.9;margin:0 0 8px;text-wrap:balance}
+.hero .sub{font-size:clamp(15px,2.6vw,20px);margin:0;text-wrap:balance}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:2px 14px;border-radius:999px;font-weight:500;line-height:1.5;white-space:nowrap;vertical-align:middle;color:var(--pc);background:color-mix(in oklab,var(--pc) 13%,transparent)}
+.nw{white-space:nowrap}.pill svg{width:1em;height:1em;flex:none}
+.p-x{--pc:#0a0a0a}.p-ag{--pc:#7c3aed}.p-seo{--pc:#16a34a}.p-cg{--pc:#e11d48}
+.dark .p-x{--pc:#f5f5f5}.dark .p-ag{--pc:#a78bfa}.dark .p-seo{--pc:#4ade80}.dark .p-cg{--pc:#fb7185}
+.dark .pill{background:color-mix(in oklab,var(--pc) 18%,transparent)}
 .tabs.theme button.s{height:28px}
 .px{white-space:pre-wrap;word-wrap:break-word;font-size:14px;line-height:1.5;color:var(--muted-foreground);display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
 .stext a,.px a{color:var(--info-foreground);text-decoration:none;font-weight:500}@media (hover:hover){.stext a:hover,.px a:hover{text-decoration:underline;text-underline-offset:4px}}
@@ -113,7 +122,7 @@ body.lock{overflow:hidden}
 @media (max-width:719px){.metrics{grid-template-columns:repeat(2,1fr)}.bars{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.btn,.cta{height:40px}}
 </style></head><body>
 <div class="wrap">
-<div class="hdr"><div><h1>X Bookmarks</h1><p class="sub" id="sub"></p></div><div class="tabs theme" id="theme" role="radiogroup" aria-label="Theme"><button class="s" data-t="light">Light</button><button class="s" data-t="dark">Dark</button><button class="s" data-t="system">System</button></div></div>
+<div class="hdr"><div class="tabs theme" id="theme" role="radiogroup" aria-label="Theme"><button class="s" data-t="light">Light</button><button class="s" data-t="dark">Dark</button><button class="s" data-t="system">System</button></div></div><header class="hero"><h1>Your X Bookmarks,<br>Actually Useful</h1><p class="lead">Every <span class="pill p-x"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23 22h-6.6l-5.1-6.7L5.4 22H2.3l7.7-8.8L2 2h6.7l4.6 6.1L18.9 2zm-1.1 18h1.7L7.3 3.9H5.5L17.8 20z"/></svg>Bookmark</span> you save, sorted into <span class="nw"><span class="pill p-ag"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 8V4M9 13v1M15 13v1"/></svg>Grok Bot &amp; Agents</span>,</span> <span class="pill p-seo"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>Local SEO</span> and <span class="pill p-cg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>Content &amp; Growth</span>.</p><p class="sub" id="sub"></p></header>
 <div class="metrics" id="metrics"></div>
 <div class="bars" id="bars"></div>
 <h2>Browse</h2>
@@ -145,7 +154,7 @@ setTheme(localStorage.getItem("bm-theme")||"system");$("theme").addEventListener
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",function(){if((localStorage.getItem("bm-theme")||"system")=="system")setTheme("system")});
 var cats=cnt(function(r){return r.c}),purs=cnt(function(r){return r.p}),pjs=cnt(function(r){return r.j});
 var minD=B.reduce(function(a,r){return r.d<a?r.d:a},"9999");
-$("sub").textContent=B.length.toLocaleString()+" saved posts · back to "+fmtD(minD)+" · synced "+(window.BM_SYNC||"");
+$("sub").textContent="Search "+B.length.toLocaleString()+" saved posts back to "+fmtD(minD)+", synced "+(window.BM_SYNC||"")+".";
 $("metrics").innerHTML=[[B.length,"Bookmarks"],[B.filter(function(r){return r.m.length}).length,"With media"],[B.filter(function(r){return r.k=="article"}).length,"Articles"],[new Set(B.map(function(r){return r.a})).size,"Authors"]].map(function(m){return'<div class="metric"><b>'+m[0].toLocaleString()+'</b><span>'+m[1]+'</span></div>'}).join("");
 function opts(el,lab,arr){el.innerHTML='<option value="">'+lab+'</option>'+arr.map(function(a){return'<option value="'+esc(a[0])+'">'+esc(a[0])+' ('+a[1]+')</option>'}).join("")}
 opts($("fc"),"All categories ("+B.length+")",cats);opts($("fp"),"All",purs);opts($("fj"),"All",pjs);
