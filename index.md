@@ -1,9 +1,66 @@
 # X bookmarks index
 
-436 bookmarks, newest first. Exported 2026-11-03T13:25:53-06:00.
+511 bookmarks, newest first. Exported 2026-11-09T08:55:19-06:00.
 
 | date | author | posts | title |
 |---|---|---|---|
+| 2026-11-08 | @ChrisSimpson | 1 | [200 DMs asking about press releases. Here's everything you need to know.](md/2026-11-08-ChrisSimpson-2119543018822701112.md) |
+| 2026-11-08 | @0xNikoFox | 1 | [I built a website agencies charge $8,000 for in one evening with Claude. Here's the exact system.](md/2026-11-08-0xNikoFox-2119533388382273897.md) |
+| 2026-11-08 | @EXM7777 | 1 | [how to build cold outreach sequences that drive sales with Claude Code:](md/2026-11-08-EXM7777-2119490887667634313.md) |
+| 2026-11-08 | @HermesWatcher | 1 | [https://t.co/wqRQPwBI9E](md/2026-11-08-HermesWatcher-2119490263869767750.md) |
+| 2026-11-08 | @liam_fallen | 1 | [Grok Bot can grow your X account…](md/2026-11-08-liam_fallen-2119471720570527893.md) |
+| 2026-11-08 | @ArvowCom | 1 | [How to Use Classic SEO for a Local Business (Blogs First): "Content Is Still King"](md/2026-11-08-ArvowCom-2119469953438888365.md) |
+| 2026-11-08 | @Elgerardorivera | 1 | [asking AI for a whole multi-page site in one prompt usually gets you a mess. this order works better](md/2026-11-08-Elgerardorivera-2119462009620029541.md) |
+| 2026-11-08 | @georgewritess | 1 | [Learn how to write scientifically addictive hooks in the next 7 minutes:](md/2026-11-08-georgewritess-2119450461300302195.md) |
+| 2026-11-08 | @agustingrowth | 1 | [How To Build an In-House GTM Agent on treg (every skill + prompts)](md/2026-11-08-agustingrowth-2119444106334101617.md) |
+| 2026-11-08 | @ScottyBeamIO | 1 | [Grok Bot for Your iPhone: The Complete Setup That Makes Siri Look Useless](md/2026-11-08-ScottyBeamIO-2119442033769136299.md) |
+| 2026-11-08 | @Mahaximus_ | 1 | [Grok Bot Usage. Fix Everything That Burns Your Limit.](md/2026-11-08-Mahaximus_-2119435020704112933.md) |
+| 2026-11-08 | @PrajwalTomar_ | 1 | [The ONLY Grok Bot Guide You'll Ever Need (My 6 Bot Team, Explained Simply)](md/2026-11-08-PrajwalTomar_-2119429007771046240.md) |
+| 2026-11-08 | @AIDropDaily | 1 | [23% of Companies Never Answered a Lead. Copy This Free After-Hours AI Reply Kit](md/2026-11-08-AIDropDaily-2119427872905429300.md) |
+| 2026-11-08 | @Max_XuY | 1 | [Your AI Copy Sounds Like Five Different Companies. Give It One Brand Voice.](md/2026-11-08-Max_XuY-2119411877025665172.md) |
+| 2026-11-08 | @noahiglerSEO | 1 | [If you run a plumbing, HVAC or electrical company, these are the directory listings we recommend you get on.](md/2026-11-08-noahiglerSEO-2119405582868271523.md) |
+| 2026-11-08 | @liam_fallen | 1 | [How to Build Your Own Audience Intelligence System With Grok Bot](md/2026-11-08-liam_fallen-2119395699624165453.md) |
+| 2026-11-08 | @cabbitar | 1 | [How To Reverse Engineer Any Device With Claude Code (Full Setup Included)](md/2026-11-08-cabbitar-2119392619327590507.md) |
+| 2026-11-08 | @BowTiedBills | 1 | [SEO tip: set up Bing Webmaster Tools, even if you hate Bing.](md/2026-11-08-BowTiedBills-2119384443983208454.md) |
+| 2026-11-08 | @ArvowCom | 1 | [How to Use Trending News for Local SEO (Website + Google Profile): "It's Low-Hanging Fruit"](md/2026-11-08-ArvowCom-2119347518785855829.md) |
+| 2026-11-07 | @2whazzuup | 1 | [200 Backlink Opportunities for SEO: Directories, Launch Platforms, Communities & More](md/2026-11-07-2whazzuup-2119247229601062993.md) |
+| 2026-11-07 | @ArvowCom | 1 | [How to Stop Your Google Business Profile Looking Like a Ghost (5 Parts): "Proof You're Alive"](md/2026-11-07-ArvowCom-2119182008962179079.md) |
+| 2026-11-07 | @BowTiedBills | 1 | [The Most Valuable SEO Article Ever Written... (Part #2)](md/2026-11-07-BowTiedBills-2119143764698571207.md) |
+| 2026-11-07 | @agenticomco | 1 | [AI Website Builder & Automation Platform for Growing Businesses | WebSpikes](md/2026-11-07-agenticomco-2119119611274911994.md) |
+| 2026-11-07 | @vartekxx | 1 | [GrokBot Token Usage: how to never hit your limit again in 10 step](md/2026-11-07-vartekxx-2119105285851656535.md) |
+| 2026-11-07 | @noahiglerSEO | 1 | [We build home service websites that turn about 3 to 6% of visitors into leads.](md/2026-11-07-noahiglerSEO-2119045038239867186.md) |
+| 2026-11-06 | @JulianGoldieSEO | 1 | [you're going to bookmark this.](md/2026-11-06-JulianGoldieSEO-2118750263217389775.md) |
+| 2026-11-06 | @HeyYoGB | 1 | [How to Use Grok Bot for X Growth](md/2026-11-06-HeyYoGB-2118748756489453615.md) |
+| 2026-11-06 | @ryangrowthh | 1 | [𝕏 Copywriting Masterclass (Dense Guide)](md/2026-11-06-ryangrowthh-2118723940638138486.md) |
+| 2026-11-06 | @Jayyanginspires | 1 | [I've Written 60,000 Tweets: How to Write a Great Sentence](md/2026-11-06-Jayyanginspires-2118705056652644600.md) |
+| 2026-11-06 | @wizofecom | 1 | [How To Grow Your Personal Brand On 𝕏 in 90 days (Founder Edition)](md/2026-11-06-wizofecom-2118700543304450529.md) |
+| 2026-11-06 | @BuildingWaves | 1 | [Claude SEO 101: Landing Pages that convert better than blog posts (Full guide for your agent)](md/2026-11-06-BuildingWaves-2118697180957429774.md) |
+| 2026-11-05 | @pipeline_tech | 1 | [Our Full Cold Calling System](md/2026-11-05-pipeline_tech-2118443677064605819.md) |
+| 2026-11-05 | @mogulinfluence | 1 | [The founder’s ultimate guide to building a COMPANY BRAIN that makes every AI agent in your business 10X smarter: https:…](md/2026-11-05-mogulinfluence-2118426342467203341.md) |
+| 2026-11-05 | @kristaletz | 1 | [Grok Bot for GTM (pt 2)](md/2026-11-05-kristaletz-2118403026532913650.md) |
+| 2026-11-05 | @JamesonCamp | 1 | [How You Can Turn Your X Posts Into 40,000+ Email Subscribers With Grok Bot (Full Course)](md/2026-11-05-JamesonCamp-2118398225879310466.md) |
+| 2026-11-05 | @lucas_b_x | 1 | [how to grow an X account that goes viral and books calls in 2026 (full system)](md/2026-11-05-lucas_b_x-2118394496849203383.md) |
+| 2026-11-05 | @Av1dlive | 1 | [How to Master System Design for Building with AI (Full Course)](md/2026-11-05-Av1dlive-2118386892270149703.md) |
+| 2026-11-05 | @hooeem | 1 | [I want to create a shared AI second brain so I never have to start from zero again (full course).](md/2026-11-05-hooeem-2118374451116929465.md) |
+| 2026-11-05 | @coreyganim | 1 | [A friend who owns a barber school wanted to pay me $7,000 to turn his textbook into a custom GPT for his students.](md/2026-11-05-coreyganim-2118370344280965583.md) |
+| 2026-11-05 | @mogulinfluence | 1 | [Dan Koe casually explained how ONE PERSON can build a $75K/month AI business in 2027: https://t.co/sVgn35ePlB](md/2026-11-05-mogulinfluence-2118351989511749841.md) |
+| 2026-11-05 | @charliejhills | 1 | [I found 700+ ready-made AI teams on GitHub. ](md/2026-11-05-charliejhills-2118340431276855775.md) |
+| 2026-11-05 | @bloggersarvesh | 1 | [i’m begging you:](md/2026-11-05-bloggersarvesh-2118335972241015073.md) |
+| 2026-11-05 | @JulianGoldieSEO | 1 | [10 SEO Jobs → 10 Free Agents: My Hermes Agent SEO Team, One Prompt Each (Full Guide)](md/2026-11-05-JulianGoldieSEO-2118287415546896875.md) |
+| 2026-11-05 | @Zephyr_hg | 1 | [I use this prompt to turn Claude Opus into an explainer-video shot list and voiceover studio.](md/2026-11-05-Zephyr_hg-2118283939458711788.md) |
+| 2026-11-04 | @BowTiedBills | 1 | [Our Updated Local Business SEO Strategy For Q4 2026...](md/2026-11-04-BowTiedBills-2118145553800233216.md) |
+| 2026-11-04 | @ryangrowthh | 1 | [Our startup has 1.5M followers and has pulled 500M+ organic views in the last 12 months.](md/2026-11-04-ryangrowthh-2118064344470794500.md) |
+| 2026-11-04 | @maestrooth | 1 | [12 Ways to Reduce Your Grok Bot Token Bill (Copy & Paste Settings)](md/2026-11-04-maestrooth-2118061328405561352.md) |
+| 2026-11-04 | @NotionHQ | 1 | [Give your agent this setup prompt. Then it will save what it learns from your conversations into Notion.](md/2026-11-04-NotionHQ-2118059337746981215.md) |
+| 2026-11-04 | @BuzzMalx | 1 | [31 hooks (you can use) that got 58,000+ bookmarks on X](md/2026-11-04-BuzzMalx-2118026007425011805.md) |
+| 2026-11-04 | @agustingrowth | 1 | [How To Master treg (full course + use cases)](md/2026-11-04-agustingrowth-2117994575675437393.md) |
+| 2026-11-04 | @VibeMarketer_ | 1 | [The Complete Guide to Growing Your Brand With Positioning, Narrative & Content](md/2026-11-04-VibeMarketer_-2117986818012676389.md) |
+| 2026-11-03 | @HermesAgentTips | 1 | [If you want to learn how to optimize your Hermes so that you aren’t overspending, you need to read this](md/2026-11-03-HermesAgentTips-2117833299800244586.md) |
+| 2026-11-03 | @bretonwill | 1 | [Google Maps is INSANE for local outbound](md/2026-11-03-bretonwill-2117769049912615190.md) |
+| 2026-11-03 | @aiedge_ | 1 | [How to install Supermemory into your Grok @bot.](md/2026-11-03-aiedge_-2117747404053385319.md) |
+| 2026-11-03 | @thedankoe | 1 | [The most lucrative AI business to start in 2027](md/2026-11-03-thedankoe-2117664712532123680.md) |
+| 2026-11-03 | @ryangrowthh | 1 | [The 𝕏 Algorithm Explained, In Depth](md/2026-11-03-ryangrowthh-2117633599608631361.md) |
+| 2026-11-02 | @supermemory | 1 | [how we built insanely good memory for grok bot (by making it a teammate instead)](md/2026-11-02-supermemory-2117435400897904660.md) |
 | 2026-11-02 | @shannholmberg | 1 | [24 distribution channels based on funnel stage and if you can build, partner, rent or acquire it](md/2026-11-02-shannholmberg-2117417741129072664.md) |
 | 2026-11-02 | @shannholmberg | 1 | [how to build an X post virality detector with a decision model (it scores your post with X's own algo weights)](md/2026-11-02-shannholmberg-2117346952044216462.md) |
 | 2026-11-02 | @nifinet | 1 | [Steal Leads From Your Competitors' Viral Posts Using Grok Bots](md/2026-11-02-nifinet-2117306930888925343.md) |
@@ -88,6 +145,7 @@
 | 2026-10-28 | @OpenNavo | 1 | [Go to "System Settings" > "General" > "Storage" and check for the files taking up the most space. Move the files you wi…](md/2026-10-28-OpenNavo-2115448996764565995.md) |
 | 2026-10-28 | @louis_raille | 1 | [Change one word in any GitHub URL and the whole repo becomes a single file you can paste into Claude.](md/2026-10-28-louis_raille-2115397161961873711.md) |
 | 2026-10-28 | @thejayden | 1 | [How to Automate Your Life With Grok Bot (Full System + PROMPTS)](md/2026-10-28-thejayden-2115388434025955778.md) |
+| 2026-10-27 | @JulianGoldieSEO | 1 | [328 → 18,036 Google Clicks a Month: My Grok Bot SEO System (Full Guide)](md/2026-10-27-JulianGoldieSEO-2115287849092477332.md) |
 | 2026-10-27 | @khookhar | 8 | [Today, we’re introducing the next chapter of Concurrence and the world’s greatest leap toward Superintelligent Care.](md/2026-10-27-khookhar-2115137228846567684.md) |
 | 2026-10-27 | @sam_feldman_ | 1 | [Codex devs - this is your sign to use the og:video tag on your website.](md/2026-10-27-sam_feldman_-2115136665887093078.md) |
 | 2026-10-27 | @bot | 1 | [Shared Bots draw on the expertise of the people who know each job best. As they improve, every sales rep benefits.](md/2026-10-27-bot-2115130761951301673.md) |
@@ -105,8 +163,10 @@
 | 2026-10-22 | @ryangrowthh | 1 | [Grok Bot as Your Head of Content (FULL GUIDE)](md/2026-10-22-ryangrowthh-2113276573793267911.md) |
 | 2026-10-21 | @Zephyr_hg | 1 | [Hand real work to AI by giving every bot one job: the four-bot team that runs my X account](md/2026-10-21-Zephyr_hg-2112876834182541338.md) |
 | 2026-10-21 | @ryangrowthh | 2 | [Grok Bot is basically AGI for 𝕏 content.](md/2026-10-21-ryangrowthh-2112816157682204822.md) |
+| 2026-10-19 | @BuildingWaves | 1 | [$12k/month with Agentic SEO. Steal it, get Google/AI clicks, make money.](md/2026-10-19-BuildingWaves-2112177318080942110.md) |
 | 2026-10-19 | @eng_khairallah1 | 1 | [grok bot is f**king insane.](md/2026-10-19-eng_khairallah1-2112151307884876044.md) |
 | 2026-10-18 | @bl888m_eth | 1 | [How to Build Anything with Grok Bot (Full Course)](md/2026-10-18-bl888m_eth-2111807986813251951.md) |
+| 2026-10-16 | @coreyganim | 1 | [There's a business model that hasn't blown up yet but will be HUGE within a year:](md/2026-10-16-coreyganim-2111125165731930542.md) |
 | 2026-10-16 | @0xKense1 | 2 | [Stop Hitting Claude Code Limits: 7 Best Practices, Tested on 945 Runs](md/2026-10-16-0xKense1-2111105138290987198.md) |
 | 2026-10-16 | @ryangrowthh | 2 | [Distribution 101: A Guide to Reaching Millions](md/2026-10-16-ryangrowthh-2111080389565640897.md) |
 | 2026-10-13 | @0x_kaize | 1 | [How to Save Tokens in Grok Bot Without Upgrading Your Plan](md/2026-10-13-0x_kaize-2110055685048209702.md) |
@@ -187,6 +247,8 @@
 | 2026-09-20 | @everestchris6 | 2 | [how to make money with jev (FULL GUIDE)](md/2026-09-20-everestchris6-2101697429192286312.md) |
 | 2026-09-18 | @avec | 4 | [We’re not just building the best email app ever: we’re building a new interface for the internet. A new way to interact…](md/2026-09-18-avec-2100999405570838995.md) |
 | 2026-09-18 | @fromzerotomill | 1 | [U need to be using AI to write ur content on Twitter.](md/2026-09-18-fromzerotomill-2100900389335793982.md) |
+| 2026-09-17 | @dani_avila7 | 1 | [2/ ](md/2026-09-17-dani_avila7-2100749235914244205.md) |
+| 2026-09-17 | @dani_avila7 | 1 | [I reviewed all 44 skills in Anthropic's Claude for Small Business plugin](md/2026-09-17-dani_avila7-2100749232403521642.md) |
 | 2026-09-17 | @freddiexpott | 2 | [Met a guy at a rooftop bar in Bali last week who books 40 qualified calls a month without a single sales rep on payroll](md/2026-09-17-freddiexpott-2100636185878278438.md) |
 | 2026-09-17 | @fromzerotomill | 1 | [If I had to start again from 0 followers, here's exactly what I'd do.](md/2026-09-17-fromzerotomill-2100613248202510671.md) |
 | 2026-09-16 | @dickiebush | 1 | [How To Write, Build, And Deploy Beautiful Landing Pages With AI (Without An Ounce Of AI Slop)](md/2026-09-16-dickiebush-2100205836677079183.md) |
@@ -254,6 +316,7 @@
 | 2026-08-25 | @EXM7777 | 1 | [this is the only right approach to managing context for your business, highly recommend reading & applying this:](md/2026-08-25-EXM7777-2092245141188944051.md) |
 | 2026-08-25 | @OriSilver | 1 | [We just open-sourced our entire marketing playbook.](md/2026-08-25-OriSilver-2092225524210827424.md) |
 | 2026-08-24 | @lukepierceops | 1 | [I shouldn't do this again but I'm doing it anyway.](md/2026-08-24-lukepierceops-2091949409231880377.md) |
+| 2026-08-24 | @tomcrawshaw01 | 1 | [15 Hermes Agent Concepts Explained In Plain English](md/2026-08-24-tomcrawshaw01-2091876187459264831.md) |
 | 2026-08-19 | @mikenevermiss | 1 | [ALL the free AI resources that exist in 2026 (nobody uses them)](md/2026-08-19-mikenevermiss-2090300976670425489.md) |
 | 2026-08-19 | @gippp69 | 1 | [Kimi Ships a $39/Month Feature For Free. Here's How To Actually Set It Up (Full Guide)](md/2026-08-19-gippp69-2090010446736859302.md) |
 | 2026-08-18 | @EXM7777 | 2 | [How to build a GTM machine from 0 to $10k MRR](md/2026-08-18-EXM7777-2089714608244457543.md) |
@@ -354,6 +417,7 @@
 | 2026-07-12 | @romanbuildsaas | 1 | [Connect Claude to LinkedIn in one click.](md/2026-07-12-romanbuildsaas-2076174017698861325.md) |
 | 2026-07-11 | @jamonholmgren | 2 | [I'm just going to dump my whole agentic setup out here, because I see too many people missing giant chunks of this and…](md/2026-07-11-jamonholmgren-2076001786700394610.md) |
 | 2026-07-10 | @coreyganim | 1 | [The easiest way I know to sell a $2,000 a month AI service is to sell a $1,000 audit first.](md/2026-07-10-coreyganim-2075703863177281550.md) |
+| 2026-07-10 | @noahiglerSEO | 1 | [We rebuilt an electrician's website and the owner just emailed saying they hit #1 on Google for their main service plus…](md/2026-07-10-noahiglerSEO-2075643224706679098.md) |
 | 2026-07-09 | @Argona0x | 1 | [Build this with Fable 5, before someone else does](md/2026-07-09-Argona0x-2075220619277283437.md) |
 | 2026-07-09 | @coreyganim | 1 | [This guy runs his entire marketing department out of folders and markdown files.](md/2026-07-09-coreyganim-2075217820925739474.md) |
 | 2026-07-09 | @Tim_Denning | 1 | [You’re born to f*cking create. Life will feel boring until you start creating something.](md/2026-07-09-Tim_Denning-2075170651984503068.md) |
@@ -436,7 +500,18 @@
 | 2026-06-05 | @PrajwalTomar_ | 1 | [WAIT. Claude Design just collapsed 3 weeks of design work into 10 minutes.](md/2026-06-05-PrajwalTomar_-2062935788258832560.md) |
 | 2026-06-05 | @boringmarketers | 1 | [content that gets cited in ai overviews follows 3 simple rules:](md/2026-06-05-boringmarketers-2062897730268377332.md) |
 | 2026-06-05 | @dickiebush | 1 | [I Gave Claude David Ogilvy's Writing Rules And Built A Legendary AI Writing Coach](md/2026-06-05-dickiebush-2062876058312224972.md) |
+| 2026-06-05 | @Raytar | 1 | [Google Maps + Claude = $800 per client. $10k+/month. full playbook from absolute zero.](md/2026-06-05-Raytar-2062812847428481488.md) |
 | 2026-06-05 | @_avichawla | 1 | [The top Hermes integrations to give your agent superpowers:](md/2026-06-05-_avichawla-2062807225543110664.md) |
 | 2026-06-04 | @boringmarketers | 1 | [programmatic seo math is simple:](md/2026-06-04-boringmarketers-2062598928605016529.md) |
 | 2026-06-03 | @boringmarketers | 1 | [playbook to grow on X:](md/2026-06-03-boringmarketers-2062172954947903666.md) |
 | 2026-06-03 | @IBuzovskyi | 1 | [10 HERMES AGENT HACKS THAT TURNED MY CHAT AGENT INTO A 24/7 SYSTEM](md/2026-06-03-IBuzovskyi-2062101068842975409.md) |
+| 2026-05-06 | @noahiglerSEO | 1 | [How to Rank #1 on Google Maps and ChatGPT in 2026](md/2026-05-06-noahiglerSEO-2052006854515995000.md) |
+| 2026-04-28 | @Zephyr_hg | 1 | [The $7K/Month Boring AI Service You Can Sell To Local Businesses This Week](md/2026-04-28-Zephyr_hg-2049063166471033257.md) |
+| 2026-04-26 | @noisyb0y1 | 1 | [ChatGPT 5.5 found my first clients on Google Maps in 10 minutes. Now it's $15,000 a month.](md/2026-04-26-noisyb0y1-2048396579065799151.md) |
+| 2026-04-02 | @Alexxcastlee | 1 | [How I made $3,000 in 60 days selling "Mini-SaaS" to local restaurants (0 coding, 0 meetings)](md/2026-04-02-Alexxcastlee-2039654891849691536.md) |
+| 2026-03-02 | @noahiglerSEO | 1 | [Here's exactly how I rank home service businesses #1 on ChatGPT and Google AI Mode.](md/2026-03-02-noahiglerSEO-2028440395709919454.md) |
+| 2026-01-29 | @noahiglerSEO | 1 | [The Boring Local SEO Playbook That Beats Everyone](md/2026-01-29-noahiglerSEO-2016863787110813903.md) |
+| 2026-01-18 | @bloggersarvesh | 1 | [My 14 years of SEO knowledge and 2800+ tweets combined into one article.](md/2026-01-18-bloggersarvesh-2012880458644939067.md) |
+| 2025-08-04 | @gregisenberg | 1 | [my friend JUST used claude code to rank #2 on google for "mobile diesel repair" within 24h. phones WON'T stop ringing a…](md/2025-08-04-gregisenberg-1952493070240604166.md) |
+| 2025-07-17 | @EXM7777 | 1 | [how to grow from 0 to 10k followers using the feyman method:](md/2025-07-17-EXM7777-1945845446641172856.md) |
+| 2025-06-04 | @WaldronLewis | 1 | [Local businesses will literally THROW money at you for this one thing:](md/2025-06-04-WaldronLewis-1930188984849969262.md) |
