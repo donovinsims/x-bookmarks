@@ -1,9 +1,32 @@
 # X bookmarks index
 
-718 bookmarks, newest first. Exported 2026-11-09T09:46:16-06:00.
+745 bookmarks, newest first. Exported 2026-11-23T18:35:11-06:00.
 
 | date | author | posts | title |
 |---|---|---|---|
+| 2026-11-18 | @bretonwill | 1 | [Send this prompt to your AI model of choice right now.](md/2026-11-18-bretonwill-2123273800514998456.md) |
+| 2026-11-18 | @BowTiedBills | 1 | [9 SEO Website Formats That Are Printing Money For Businesses...](md/2026-11-18-BowTiedBills-2123186325675295074.md) |
+| 2026-11-18 | @cyrilXBT | 1 | [How to Run Uncensored AI on Your Laptop in 10 Minutes](md/2026-11-18-cyrilXBT-2123100663513034796.md) |
+| 2026-11-18 | @bruteforcearete | 1 | [Shipping Micro-Utilities That Compound: Three 48-Hour Builds Across iOS, Chrome & Mac Worth $10K/M](md/2026-11-18-bruteforcearete-2122971391138086967.md) |
+| 2026-11-17 | @coldemailchris | 1 | [The 5 Best Cold Emails We've Ever Sent](md/2026-11-17-coldemailchris-2122803977267871784.md) |
+| 2026-11-17 | @ecomchasedimond | 1 | [80 Storytelling Hooks To Make People Stop Scrolling: https://t.co/YBMbd4seFw](md/2026-11-17-ecomchasedimond-2122793870669062451.md) |
+| 2026-11-17 | @LoganTGott | 1 | [How to Run X and LinkedIn With Grok Bot (Full Guide) ](md/2026-11-17-LoganTGott-2122747899511534005.md) |
+| 2026-11-17 | @ericosiu | 1 | [Reminder: all of our AI skills for marketing and sales teams are open source.](md/2026-11-17-ericosiu-2122743317373022256.md) |
+| 2026-11-17 | @ryangrowthh | 1 | [How to grow your personal brand on 𝕏.](md/2026-11-17-ryangrowthh-2122737278304858336.md) |
+| 2026-11-17 | @shaw_gtm | 1 | [Google Maps scraping playbook for local outbound (full course)](md/2026-11-17-shaw_gtm-2122720110607470954.md) |
+| 2026-11-17 | @mogulinfluence | 1 | [The marketing engineer's ultimate 9-step playbook for building a 24/7 AI GROWTH ENGINE that runs experiments while you …](md/2026-11-17-mogulinfluence-2122710528913297658.md) |
+| 2026-11-17 | @__giampiero__ | 1 | [@_toddanderson Structure is the part most contractors skip. One page per service and per city, real job photos, clear s…](md/2026-11-17-__giampiero__-2122709165512479167.md) |
+| 2026-11-17 | @irongiantXBT | 1 | [holy f*ck this is smart](md/2026-11-17-irongiantXBT-2122709093102285099.md) |
+| 2026-11-17 | @ryangrowthh | 1 | [How to Grow Your Personal Brand on 𝕏 (workbook + resources) ](md/2026-11-17-ryangrowthh-2122703616536678525.md) |
+| 2026-11-17 | @noelcetaSEO | 1 | [561K Google AI impressions in 90 days. 24 actions to give Fable 5.2](md/2026-11-17-noelcetaSEO-2122702185792237736.md) |
+| 2026-11-17 | @_toddanderson | 1 | [We helped scale a fencing business with SEO and added $934k to their business in 90 days. ](md/2026-11-17-_toddanderson-2122664554228232363.md) |
+| 2026-11-17 | @irongiantXBT | 1 | [Your Grok Bot Is Burning Money - Harness Fixes It](md/2026-11-17-irongiantXBT-2122662343306059780.md) |
+| 2026-11-16 | @emilylai | 1 | [EVERYTHING I Learned from 70 Days of Building with AI: Setup, Distribution, and Predictions ](md/2026-11-16-emilylai-2122546370586251664.md) |
+| 2026-11-16 | @HussainIbarra | 1 | [How to become dangerously well-spoken (use these 5 strategies)](md/2026-11-16-HussainIbarra-2122359603384238090.md) |
+| 2026-11-16 | @BuildingWaves | 1 | [From ZERO to AI-SEO. FULL GUIDE (Claude/Codex/Grok + Prompts + Free Skills)](md/2026-11-16-BuildingWaves-2122281775422660693.md) |
+| 2026-11-15 | @BowTiedBills | 1 | [I run one Google Maps audit on every business I talk to…](md/2026-11-15-BowTiedBills-2121966746278211709.md) |
+| 2026-11-11 | @BowTiedBills | 1 | [How To Create An SEO Optimized Website... (In 10 Steps)](md/2026-11-11-BowTiedBills-2120631503805693983.md) |
+| 2026-11-09 | @boringmarketer | 1 | [How to Build a One-Person Million Dollar Agency with AI Agents](md/2026-11-09-boringmarketer-2119888053577646318.md) |
 | 2026-11-08 | @ChrisSimpson | 1 | [200 DMs asking about press releases. Here's everything you need to know.](md/2026-11-08-ChrisSimpson-2119543018822701112.md) |
 | 2026-11-08 | @0xNikoFox | 1 | [I built a website agencies charge $8,000 for in one evening with Claude. Here's the exact system.](md/2026-11-08-0xNikoFox-2119533388382273897.md) |
 | 2026-11-08 | @EXM7777 | 1 | [how to build cold outreach sequences that drive sales with Claude Code:](md/2026-11-08-EXM7777-2119490887667634313.md) |
@@ -267,7 +290,9 @@
 | 2026-09-17 | @dani_avila7 | 1 | [2/ ](md/2026-09-17-dani_avila7-2100749235914244205.md) |
 | 2026-09-17 | @dani_avila7 | 1 | [I reviewed all 44 skills in Anthropic's Claude for Small Business plugin](md/2026-09-17-dani_avila7-2100749232403521642.md) |
 | 2026-09-17 | @freddiexpott | 2 | [Met a guy at a rooftop bar in Bali last week who books 40 qualified calls a month without a single sales rep on payroll](md/2026-09-17-freddiexpott-2100636185878278438.md) |
+| 2026-09-17 | @boringmarketer | 1 | [here's an AI marketing service AND a way to find customers that you can start today](md/2026-09-17-boringmarketer-2100615731842822616.md) |
 | 2026-09-17 | @fromzerotomill | 1 | [If I had to start again from 0 followers, here's exactly what I'd do.](md/2026-09-17-fromzerotomill-2100613248202510671.md) |
+| 2026-09-17 | @boringmarketer | 1 | [automate these with @zapier (thanks for sponsoring) https://bit.ly/4AfkRVr](md/2026-09-17-boringmarketer-2100612120677093521.md) |
 | 2026-09-16 | @dickiebush | 1 | [How To Write, Build, And Deploy Beautiful Landing Pages With AI (Without An Ounce Of AI Slop)](md/2026-09-16-dickiebush-2100205836677079183.md) |
 | 2026-09-13 | @everestchris6 | 1 | [how to automate lead generation (FULL GUIDE)](md/2026-09-13-everestchris6-2099161324555309092.md) |
 | 2026-09-12 | @callumhyman24 | 1 | [How To Articulate Thoughts Like The Top 0.01%](md/2026-09-12-callumhyman24-2098902833525391716.md) |
@@ -566,6 +591,7 @@
 | 2026-06-05 | @PrajwalTomar_ | 1 | [WAIT. Claude Design just collapsed 3 weeks of design work into 10 minutes.](md/2026-06-05-PrajwalTomar_-2062935788258832560.md) |
 | 2026-06-05 | @boringmarketers | 1 | [content that gets cited in ai overviews follows 3 simple rules:](md/2026-06-05-boringmarketers-2062897730268377332.md) |
 | 2026-06-05 | @dickiebush | 1 | [I Gave Claude David Ogilvy's Writing Rules And Built A Legendary AI Writing Coach](md/2026-06-05-dickiebush-2062876058312224972.md) |
+| 2026-06-05 | @Asteri_eth | 1 | [One guy made $50,000 just by selling websites through Google Maps and Claude](md/2026-06-05-Asteri_eth-2062859664056844645.md) |
 | 2026-06-05 | @Raytar | 1 | [Google Maps + Claude = $800 per client. $10k+/month. full playbook from absolute zero.](md/2026-06-05-Raytar-2062812847428481488.md) |
 | 2026-06-05 | @_avichawla | 1 | [The top Hermes integrations to give your agent superpowers:](md/2026-06-05-_avichawla-2062807225543110664.md) |
 | 2026-06-04 | @boringmarketers | 1 | [programmatic seo math is simple:](md/2026-06-04-boringmarketers-2062598928605016529.md) |
@@ -580,6 +606,7 @@
 | 2026-05-28 | @noahiglerSEO | 1 | [Most home service operators run PPC traffic to their homepage or main service page.](md/2026-05-28-noahiglerSEO-2059958117622820906.md) |
 | 2026-05-21 | @noahiglerSEO | 1 | [Most home service businesses don't actually need an SEO agency.](md/2026-05-21-noahiglerSEO-2057517032879349972.md) |
 | 2026-05-21 | @noahiglerSEO | 1 | [Google just announced that for home service searches, AI agents will start calling businesses on the customer's behalf …](md/2026-05-21-noahiglerSEO-2057438435602800947.md) |
+| 2026-05-21 | @sairahul1 | 1 | [How to Build an AI Agent That Finds Clients While You Sleep](md/2026-05-21-sairahul1-2057376104072298855.md) |
 | 2026-05-16 | @noahiglerSEO | 1 | [The GBP services section is one of the most underrated ranking levers in local SEO.](md/2026-05-16-noahiglerSEO-2055617261855977596.md) |
 | 2026-05-13 | @noahiglerSEO | 1 | [If I owned an HVAC company in San Antonio, here's exactly how I'd rank #1 on Google Maps in 12 months:](md/2026-05-13-noahiglerSEO-2054522299290620236.md) |
 | 2026-05-12 | @noahiglerSEO | 1 | [Filing a DBA is one of the highest leverage moves a home service business can make.](md/2026-05-12-noahiglerSEO-2054155634107469971.md) |
